@@ -3,8 +3,8 @@ const { token } = require('./config.json');
 
 const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMembers, GatewayIntentBits.GuildMessages, GatewayIntentBits.MessageContent] });
 
-const targetChannelID = '1199903534456504431';
-const targetUserID = '548140081030889472';
+const targetChannelID = 'CHANNEL ID HERE';
+const targetUserID = 'USER ID HERE';
 
 var channel_members;
 var channel;
